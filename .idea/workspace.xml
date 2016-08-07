@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528caccc-5155-4b9f-98c2-258e67d25a72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/salon.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/google_analytics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/haiht.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/app.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/cham-cong.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/elements/body-footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/elements/body-header.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/elements/header.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/elements/left-panel.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/Admin/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
     <ignored path="salon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,12 +35,268 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - salon@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="salon" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cham-cong.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin/cham-cong.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#1877#25689#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/2a53618c-f537-4acf-b1a6-228ffcc21321" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/2a53618c-f537-4acf-b1a6-228ffcc21321">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>2a53618c-f537-4acf-b1a6-228ffcc21321</OriginalElement>
+              <nodes>
+                <node x="0.0" y="627.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.khach_hang</node>
+                <node x="154.0" y="219.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien</node>
+                <node x="0.0" y="0.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.nhan_vien</node>
+                <node x="0.0" y="373.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.san_pham</node>
+                <node x="804.6313291139242" y="249.5253164556962">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.users</node>
+                <node x="331.0" y="627.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.dich_vu</node>
+                <node x="808.4651898734176" y="661.6677215189874">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.migrations</node>
+                <node x="824.272151898734" y="494.7056962025317">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.password_resets</node>
+                <node x="398.6060126582279" y="10.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cua_hang</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien" target="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cua_hang">
+                  <point x="68.5" y="-54.5" />
+                  <point x="359.5" y="194.0" />
+                  <point x="439.0" y="194.0" />
+                  <point x="0.0" y="74.5" />
+                </edge>
+                <edge source="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien" target="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.nhan_vien">
+                  <point x="-68.5" y="-54.5" />
+                  <point x="222.5" y="194.0" />
+                  <point x="143.0" y="194.0" />
+                  <point x="0.0" y="84.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7745098039215687" x="555.5" y="398.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salon.nhan_vien" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.nhan_vien">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChamCongController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ChamCongController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="e#46#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Admin/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="haiht.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/haiht.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding>
+                <element signature="e#95#133#0" expanded="false" />
+                <element signature="e#181#481#0" expanded="false" />
+                <element signature="e#489#549#0" expanded="false" />
+                <element signature="e#595#779#0" expanded="false" />
+                <element signature="e#642#752#0" expanded="false" />
+                <element signature="e#875#1539#0" expanded="false" />
+                <element signature="e#971#1475#0" expanded="false" />
+                <element signature="e#1026#1086#0" expanded="false" />
+                <element signature="e#1302#1463#0" expanded="false" />
+                <element signature="e#1481#1532#0" expanded="false" />
+                <element signature="e#1586#1767#0" expanded="false" />
+                <element signature="e#1636#1758#0" expanded="false" />
+                <element signature="e#1773#1806#0" expanded="false" />
+                <element signature="e#1812#1839#0" expanded="false" />
+                <element signature="e#2058#2633#0" expanded="false" />
+                <element signature="e#2194#2447#0" expanded="false" />
+                <element signature="e#2757#2917#0" expanded="false" />
+                <element signature="e#2820#2910#0" expanded="false" />
+                <element signature="e#2957#3508#0" expanded="false" />
+                <element signature="e#2975#3029#0" expanded="false" />
+                <element signature="e#3047#3101#0" expanded="false" />
+                <element signature="e#3161#3502#0" expanded="false" />
+                <element signature="e#3183#3492#0" expanded="false" />
+                <element signature="e#3273#3446#0" expanded="false" />
+                <element signature="e#3304#3428#0" expanded="false" />
+                <element signature="e#3305#3366#0" expanded="false" />
+                <element signature="e#3368#3427#0" expanded="false" />
+                <element signature="e#3589#3606#0" expanded="false" />
+                <element signature="e#3671#3893#0" expanded="false" />
+                <element signature="e#3710#3802#0" expanded="false" />
+                <element signature="e#3808#3887#0" expanded="false" />
+                <element signature="e#3919#4142#0" expanded="false" />
+                <element signature="e#3946#4076#0" expanded="false" />
+                <element signature="e#4082#4135#0" expanded="false" />
+                <element signature="e#4170#4192#0" expanded="false" />
+                <element signature="e#4198#4226#0" expanded="false" />
+                <element signature="e#4245#6157#0" expanded="false" />
+                <element signature="e#4562#5500#0" expanded="false" />
+                <element signature="e#4563#5029#0" expanded="false" />
+                <element signature="e#4644#4953#0" expanded="false" />
+                <element signature="e#4763#4939#0" expanded="false" />
+                <element signature="e#4794#4921#0" expanded="false" />
+                <element signature="e#4795#4856#0" expanded="false" />
+                <element signature="e#4858#4920#0" expanded="false" />
+                <element signature="e#4976#5019#0" expanded="false" />
+                <element signature="e#5031#5499#0" expanded="false" />
+                <element signature="e#5114#5423#0" expanded="false" />
+                <element signature="e#5233#5409#0" expanded="false" />
+                <element signature="e#5264#5391#0" expanded="false" />
+                <element signature="e#5265#5326#0" expanded="false" />
+                <element signature="e#5328#5390#0" expanded="false" />
+                <element signature="e#5446#5489#0" expanded="false" />
+                <element signature="e#5525#6088#0" expanded="false" />
+                <element signature="e#5546#5594#0" expanded="false" />
+                <element signature="e#5695#5816#0" expanded="false" />
+                <element signature="e#5838#6040#0" expanded="false" />
+                <element signature="e#6062#6078#0" expanded="false" />
+                <element signature="e#6209#6230#0" expanded="false" />
+                <element signature="e#6249#9112#0" expanded="false" />
+                <element signature="e#7157#7919#0" expanded="false" />
+                <element signature="e#7158#7381#0" expanded="false" />
+                <element signature="e#7241#7371#0" expanded="false" />
+                <element signature="e#7383#7648#0" expanded="false" />
+                <element signature="e#7498#7572#0" expanded="false" />
+                <element signature="e#7595#7638#0" expanded="false" />
+                <element signature="e#7650#7918#0" expanded="false" />
+                <element signature="e#7768#7842#0" expanded="false" />
+                <element signature="e#7865#7908#0" expanded="false" />
+                <element signature="e#7943#8450#0" expanded="false" />
+                <element signature="e#7964#8012#0" expanded="false" />
+                <element signature="e#8068#8197#0" expanded="false" />
+                <element signature="e#8086#8107#0" expanded="false" />
+                <element signature="e#8219#8264#0" expanded="false" />
+                <element signature="e#8286#8439#0" expanded="false" />
+                <element signature="e#8340#8397#0" expanded="false" />
+                <element signature="e#8503#8990#0" expanded="false" />
+                <element signature="e#8583#8731#0" expanded="false" />
+                <element signature="e#8629#8717#0" expanded="false" />
+                <element signature="e#8764#8979#0" expanded="false" />
+                <element signature="e#8793#8884#0" expanded="false" />
+                <element signature="e#8890#8965#0" expanded="false" />
+                <element signature="e#9051#9085#0" expanded="false" />
+                <element signature="e#9120#9148#0" expanded="false" />
+                <element signature="e#9167#9338#0" expanded="false" />
+                <element signature="e#9372#10137#0" expanded="false" />
+                <element signature="e#9461#9615#0" expanded="false" />
+                <element signature="e#9485#9533#0" expanded="false" />
+                <element signature="e#9555#9605#0" expanded="false" />
+                <element signature="e#9634#9819#0" expanded="false" />
+                <element signature="e#9658#9809#0" expanded="false" />
+                <element signature="e#9659#9808#0" expanded="false" />
+                <element signature="e#9871#10131#0" expanded="false" />
+                <element signature="e#9930#9981#0" expanded="false" />
+                <element signature="e#9987#10121#0" expanded="false" />
+                <element signature="e#10145#10179#0" expanded="false" />
+                <element signature="e#10212#13711#0" expanded="false" />
+                <element signature="e#10398#13702#0" expanded="false" />
+                <element signature="e#10618#10793#0" expanded="false" />
+                <element signature="e#10846#11320#0" expanded="false" />
+                <element signature="e#10927#11255#0" expanded="false" />
+                <element signature="e#10986#11182#0" expanded="false" />
+                <element signature="e#11344#13245#0" expanded="false" />
+                <element signature="e#11345#11590#0" expanded="false" />
+                <element signature="e#11592#11825#0" expanded="false" />
+                <element signature="e#11827#12089#0" expanded="false" />
+                <element signature="e#12091#12353#0" expanded="false" />
+                <element signature="e#12355#12545#0" expanded="false" />
+                <element signature="e#12547#12782#0" expanded="false" />
+                <element signature="e#12784#13037#0" expanded="false" />
+                <element signature="e#13039#13244#0" expanded="false" />
+                <element signature="e#13305#13692#0" expanded="false" />
+                <element signature="e#13353#13499#0" expanded="false" />
+                <element signature="e#13539#13678#0" expanded="false" />
+                <element signature="e#13718#13744#0" expanded="false" />
+                <element signature="e#13874#13941#0" expanded="false" />
+                <element signature="e#14020#14087#0" expanded="false" />
+                <element signature="e#14168#14236#0" expanded="false" />
+                <element signature="e#14292#14359#0" expanded="false" />
+                <element signature="e#14421#14493#0" expanded="false" />
+                <element signature="e#14554#14625#0" expanded="false" />
+                <element signature="e#14633#14655#0" expanded="false" />
+                <element signature="e#14914#14950#0" expanded="false" />
+                <element signature="e#15065#15172#0" expanded="false" />
+                <element signature="e#15205#16022#0" expanded="false" />
+                <element signature="e#15206#15257#0" expanded="false" />
+                <element signature="e#15356#15890#0" expanded="false" />
+                <element signature="e#15422#15780#0" expanded="false" />
+                <element signature="e#15440#15497#0" expanded="false" />
+                <element signature="e#15786#15854#0" expanded="false" />
+                <element signature="e#15909#16013#0" expanded="false" />
+                <element signature="e#16134#16204#0" expanded="false" />
+                <element signature="e#16231#16286#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +305,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/app/Http/NhanVien.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/NhanVien.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_070304_createTableCuaHang_NhanVien.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/app/CuaHang.php" />
+        <option value="$PROJECT_DIR$/app/CuaHang_NhanVien.php" />
+        <option value="$PROJECT_DIR$/app/KhachHang.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/elements/left-panel.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/elements/body-header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/elements/body-footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/elements/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/wizard.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/public/js/haiht.js" />
+        <option value="$PROJECT_DIR$/public/js/google_analytics.js" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/routing/RouteCollection.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_064833_createTableNhanVien.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_070012_createTableCuaHang.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_071104_createTableKhachHang.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ChamCongController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Admin/cham-cong.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_101332_createTableDichVu.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_08_07_102720_createTableSanPham.php" />
       </list>
     </option>
   </component>
@@ -47,9 +349,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="35" />
     <option name="y" value="23" />
-    <option name="width" value="1235" />
+    <option name="width" value="1245" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -77,28 +379,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="salon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="app.scss&#9;FILE&#9;file:///Applications/mappstack-5.6.19-0/apache2/htdocs/salon/resources/assets/sass/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="RouteCollection.php&#9;FILE&#9;file:///Applications/mampstack-5.6.24-0/apache2/htdocs/salon/vendor/symfony/routing/RouteCollection.php&#10;app.scss&#9;FILE&#9;file:///Applications/mappstack-5.6.19-0/apache2/htdocs/salon/resources/assets/sass/app.scss" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/Admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -130,6 +431,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -170,11 +477,14 @@
       <workItem from="1470099800584" duration="25000" />
       <workItem from="1470207369857" duration="328000" />
       <workItem from="1470230028355" duration="48000" />
+      <workItem from="1470230077606" duration="3794000" />
+      <workItem from="1470272406823" duration="31000" />
+      <workItem from="1470547697808" duration="11086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="538000" />
+    <option name="totallyTimeSpent" value="15449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -186,17 +496,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1235" height="777" extended-state="6" />
-    <editor active="false" />
+    <frame x="35" y="23" width="1245" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26152557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18786368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2094763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22335766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -227,6 +537,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -234,31 +576,547 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2a53618c-f537-4acf-b1a6-228ffcc21321/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/NhanVien.php.bk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.cuahang_nhanvien">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.cua_hang">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NhanVien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CuaHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/CuaHang_NhanVien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/KhachHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/elements/left-panel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8094">
+          <caret line="426" column="8" selection-start-line="426" selection-start-column="8" selection-end-line="426" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/elements/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4129">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
+    <entry file="file://$PROJECT_DIR$/public/js/google_analytics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
+        <state relative-caret-position="209">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/elements/body-footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="919" column="0" selection-start-line="919" selection-start-column="0" selection-end-line="919" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#1233#0#HTML" expanded="false" />
+            <element signature="e#1257#38698#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/elements/body-header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1444">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/haiht.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="e#95#133#0" expanded="false" />
+            <element signature="e#181#481#0" expanded="false" />
+            <element signature="e#489#549#0" expanded="false" />
+            <element signature="e#595#779#0" expanded="false" />
+            <element signature="e#642#752#0" expanded="false" />
+            <element signature="e#875#1539#0" expanded="false" />
+            <element signature="e#971#1475#0" expanded="false" />
+            <element signature="e#1026#1086#0" expanded="false" />
+            <element signature="e#1302#1463#0" expanded="false" />
+            <element signature="e#1481#1532#0" expanded="false" />
+            <element signature="e#1586#1767#0" expanded="false" />
+            <element signature="e#1636#1758#0" expanded="false" />
+            <element signature="e#1773#1806#0" expanded="false" />
+            <element signature="e#1812#1839#0" expanded="false" />
+            <element signature="e#2058#2633#0" expanded="false" />
+            <element signature="e#2194#2447#0" expanded="false" />
+            <element signature="e#2757#2917#0" expanded="false" />
+            <element signature="e#2820#2910#0" expanded="false" />
+            <element signature="e#2957#3508#0" expanded="false" />
+            <element signature="e#2975#3029#0" expanded="false" />
+            <element signature="e#3047#3101#0" expanded="false" />
+            <element signature="e#3161#3502#0" expanded="false" />
+            <element signature="e#3183#3492#0" expanded="false" />
+            <element signature="e#3273#3446#0" expanded="false" />
+            <element signature="e#3304#3428#0" expanded="false" />
+            <element signature="e#3305#3366#0" expanded="false" />
+            <element signature="e#3368#3427#0" expanded="false" />
+            <element signature="e#3589#3606#0" expanded="false" />
+            <element signature="e#3671#3893#0" expanded="false" />
+            <element signature="e#3710#3802#0" expanded="false" />
+            <element signature="e#3808#3887#0" expanded="false" />
+            <element signature="e#3919#4142#0" expanded="false" />
+            <element signature="e#3946#4076#0" expanded="false" />
+            <element signature="e#4082#4135#0" expanded="false" />
+            <element signature="e#4170#4192#0" expanded="false" />
+            <element signature="e#4198#4226#0" expanded="false" />
+            <element signature="e#4245#6157#0" expanded="false" />
+            <element signature="e#4562#5500#0" expanded="false" />
+            <element signature="e#4563#5029#0" expanded="false" />
+            <element signature="e#4644#4953#0" expanded="false" />
+            <element signature="e#4763#4939#0" expanded="false" />
+            <element signature="e#4794#4921#0" expanded="false" />
+            <element signature="e#4795#4856#0" expanded="false" />
+            <element signature="e#4858#4920#0" expanded="false" />
+            <element signature="e#4976#5019#0" expanded="false" />
+            <element signature="e#5031#5499#0" expanded="false" />
+            <element signature="e#5114#5423#0" expanded="false" />
+            <element signature="e#5233#5409#0" expanded="false" />
+            <element signature="e#5264#5391#0" expanded="false" />
+            <element signature="e#5265#5326#0" expanded="false" />
+            <element signature="e#5328#5390#0" expanded="false" />
+            <element signature="e#5446#5489#0" expanded="false" />
+            <element signature="e#5525#6088#0" expanded="false" />
+            <element signature="e#5546#5594#0" expanded="false" />
+            <element signature="e#5695#5816#0" expanded="false" />
+            <element signature="e#5838#6040#0" expanded="false" />
+            <element signature="e#6062#6078#0" expanded="false" />
+            <element signature="e#6209#6230#0" expanded="false" />
+            <element signature="e#6249#9112#0" expanded="false" />
+            <element signature="e#7157#7919#0" expanded="false" />
+            <element signature="e#7158#7381#0" expanded="false" />
+            <element signature="e#7241#7371#0" expanded="false" />
+            <element signature="e#7383#7648#0" expanded="false" />
+            <element signature="e#7498#7572#0" expanded="false" />
+            <element signature="e#7595#7638#0" expanded="false" />
+            <element signature="e#7650#7918#0" expanded="false" />
+            <element signature="e#7768#7842#0" expanded="false" />
+            <element signature="e#7865#7908#0" expanded="false" />
+            <element signature="e#7943#8450#0" expanded="false" />
+            <element signature="e#7964#8012#0" expanded="false" />
+            <element signature="e#8068#8197#0" expanded="false" />
+            <element signature="e#8086#8107#0" expanded="false" />
+            <element signature="e#8219#8264#0" expanded="false" />
+            <element signature="e#8286#8439#0" expanded="false" />
+            <element signature="e#8340#8397#0" expanded="false" />
+            <element signature="e#8503#8990#0" expanded="false" />
+            <element signature="e#8583#8731#0" expanded="false" />
+            <element signature="e#8629#8717#0" expanded="false" />
+            <element signature="e#8764#8979#0" expanded="false" />
+            <element signature="e#8793#8884#0" expanded="false" />
+            <element signature="e#8890#8965#0" expanded="false" />
+            <element signature="e#9051#9085#0" expanded="false" />
+            <element signature="e#9120#9148#0" expanded="false" />
+            <element signature="e#9167#9338#0" expanded="false" />
+            <element signature="e#9372#10137#0" expanded="false" />
+            <element signature="e#9461#9615#0" expanded="false" />
+            <element signature="e#9485#9533#0" expanded="false" />
+            <element signature="e#9555#9605#0" expanded="false" />
+            <element signature="e#9634#9819#0" expanded="false" />
+            <element signature="e#9658#9809#0" expanded="false" />
+            <element signature="e#9659#9808#0" expanded="false" />
+            <element signature="e#9871#10131#0" expanded="false" />
+            <element signature="e#9930#9981#0" expanded="false" />
+            <element signature="e#9987#10121#0" expanded="false" />
+            <element signature="e#10145#10179#0" expanded="false" />
+            <element signature="e#10212#13711#0" expanded="false" />
+            <element signature="e#10398#13702#0" expanded="false" />
+            <element signature="e#10618#10793#0" expanded="false" />
+            <element signature="e#10846#11320#0" expanded="false" />
+            <element signature="e#10927#11255#0" expanded="false" />
+            <element signature="e#10986#11182#0" expanded="false" />
+            <element signature="e#11344#13245#0" expanded="false" />
+            <element signature="e#11345#11590#0" expanded="false" />
+            <element signature="e#11592#11825#0" expanded="false" />
+            <element signature="e#11827#12089#0" expanded="false" />
+            <element signature="e#12091#12353#0" expanded="false" />
+            <element signature="e#12355#12545#0" expanded="false" />
+            <element signature="e#12547#12782#0" expanded="false" />
+            <element signature="e#12784#13037#0" expanded="false" />
+            <element signature="e#13039#13244#0" expanded="false" />
+            <element signature="e#13305#13692#0" expanded="false" />
+            <element signature="e#13353#13499#0" expanded="false" />
+            <element signature="e#13539#13678#0" expanded="false" />
+            <element signature="e#13718#13744#0" expanded="false" />
+            <element signature="e#13874#13941#0" expanded="false" />
+            <element signature="e#14020#14087#0" expanded="false" />
+            <element signature="e#14168#14236#0" expanded="false" />
+            <element signature="e#14292#14359#0" expanded="false" />
+            <element signature="e#14421#14493#0" expanded="false" />
+            <element signature="e#14554#14625#0" expanded="false" />
+            <element signature="e#14633#14655#0" expanded="false" />
+            <element signature="e#14914#14950#0" expanded="false" />
+            <element signature="e#15065#15172#0" expanded="false" />
+            <element signature="e#15205#16022#0" expanded="false" />
+            <element signature="e#15206#15257#0" expanded="false" />
+            <element signature="e#15356#15890#0" expanded="false" />
+            <element signature="e#15422#15780#0" expanded="false" />
+            <element signature="e#15440#15497#0" expanded="false" />
+            <element signature="e#15786#15854#0" expanded="false" />
+            <element signature="e#15909#16013#0" expanded="false" />
+            <element signature="e#16134#16204#0" expanded="false" />
+            <element signature="e#16231#16286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/routing/RouteCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_070304_createTableCuaHang_NhanVien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_070012_createTableCuaHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_064833_createTableNhanVien.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.migrations">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ChamCongController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.nhan_vien">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="496" column="20" selection-start-line="496" selection-start-column="20" selection-end-line="496" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.san_pham">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_102720_createTableSanPham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_071104_createTableKhachHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="11" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/70970940/2a53618c-f537-4acf-b1a6-228ffcc21321/salon.dich_vu">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_08_07_101332_createTableDichVu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Admin/cham-cong.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#1877#25689#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/2a53618c-f537-4acf-b1a6-228ffcc21321">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>2a53618c-f537-4acf-b1a6-228ffcc21321</OriginalElement>
+          <nodes>
+            <node x="0.0" y="627.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.khach_hang</node>
+            <node x="154.0" y="219.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien</node>
+            <node x="0.0" y="0.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.nhan_vien</node>
+            <node x="0.0" y="373.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.san_pham</node>
+            <node x="804.6313291139242" y="249.5253164556962">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.users</node>
+            <node x="331.0" y="627.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.dich_vu</node>
+            <node x="808.4651898734176" y="661.6677215189874">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.migrations</node>
+            <node x="824.272151898734" y="494.7056962025317">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.password_resets</node>
+            <node x="398.6060126582279" y="10.0">2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cua_hang</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien" target="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cua_hang">
+              <point x="68.5" y="-54.5" />
+              <point x="359.5" y="194.0" />
+              <point x="439.0" y="194.0" />
+              <point x="0.0" y="74.5" />
+            </edge>
+            <edge source="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.cuahang_nhanvien" target="2a53618c-f537-4acf-b1a6-228ffcc21321.TABLE:salon.nhan_vien">
+              <point x="-68.5" y="-54.5" />
+              <point x="222.5" y="194.0" />
+              <point x="143.0" y="194.0" />
+              <point x="0.0" y="84.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7745098039215687" x="555.5" y="398.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
