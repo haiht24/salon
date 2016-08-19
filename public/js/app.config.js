@@ -77,7 +77,7 @@
 /*
  * Turn on JarvisWidget functionality
  * Global JarvisWidget Settings
- * For a greater control of the widgets, please check app.js file
+ * For a greater control of the widgets, please check index.js file
  * found within COMMON_ASSETS/UNMINIFIED_JS folder and see from line 1355
  * dependency: js/jarviswidget/jarvis.widget.min.js
  */

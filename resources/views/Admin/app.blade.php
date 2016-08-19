@@ -225,11 +225,18 @@
 		<script src="js/plugin/moment/moment.min.js"></script>
 		<script src="js/plugin/fullcalendar/jquery.fullcalendar.min.js"></script>
 
-        <script src="{{ asset('js/haiht.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
 
 		<!-- Your GOOGLE ANALYTICS CODE Below -->
 {{--        <script src="{{ asset('js/google_analytics.js') }}" type="text/javascript"></script>--}}
 
+		<!-- CUSTOM JS -->
+		<script src="{{ asset('node_modules/vue/dist/vue.js') }}"></script>
+		<script src="{{ asset('node_modules/vue-resource/dist/vue-resource.js') }}"></script>
+
+		<script src="{{ asset('js/index.js') }}" type="text/javascript"></script>
+		<script src="{{ asset('js/haiht.js') }}" type="text/javascript"></script>
+		@yield('js')
 	</body>
 
 </html>

@@ -83,11 +83,15 @@
 								<div class="tab-pane fade active in padding-10 no-padding-bottom" id="s1">
 									<div class="row no-space">
 										<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-														<span class="demo-liveupdate-1"> <span class="onoffswitch-title">Live switch</span> <span class="onoffswitch">
-																<input type="checkbox" name="start_interval" class="onoffswitch-checkbox" id="start_interval">
-																<label class="onoffswitch-label" for="start_interval">
-																	<span class="onoffswitch-inner" data-swchon-text="ON" data-swchoff-text="OFF"></span>
-																	<span class="onoffswitch-switch"></span> </label> </span> </span>
+											<span class="demo-liveupdate-1"> <span class="onoffswitch-title">Live switch</span>
+												<span class="onoffswitch">
+													<input type="checkbox" name="start_interval" class="onoffswitch-checkbox" id="start_interval">
+													<label class="onoffswitch-label" for="start_interval">
+														<span class="onoffswitch-inner" data-swchon-text="ON" data-swchoff-text="OFF"></span>
+														<span class="onoffswitch-switch"></span>
+													</label>
+												</span>
+											</span>
 											<div id="updating-chart" class="chart-large txt-color-blue"></div>
 
 										</div>
@@ -918,4 +922,10 @@
 	</section>
 	<!-- end widget grid -->
 
+@endsection
+
+@section('js')
+	<script>
+		var include_indexJs = true;
+	</script>
 @endsection

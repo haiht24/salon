@@ -7,14 +7,24 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\NhanVien;
+use App\DichVu;
+use App\SanPham;
 
 class ChamCongController extends Controller
 {
     public function index()
     {
-        $data = [];
-        $data['nhanvien'] = NhanVien::all();
+        return view('Admin/cham-cong');
+    }
 
-        return view('Admin/cham-cong')->with($data);
+    public function getData()
+    {
+        $response = [];
+        $response['nhanvien'] = NhanVien::all();
+        $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
+        $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
+
+//        return response()->json($response);
+        return $response;
     }
 }

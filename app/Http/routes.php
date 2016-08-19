@@ -7,6 +7,9 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/admin', 'Admin\IndexController@index');
     Route::get('/cham-cong', 'Admin\ChamCongController@index');
+
+    // API
+    Route::get('/api/cham-cong/get-data', 'Admin\ChamCongController@getData');
 });
 
 Route::group(['middleware' => ['web','auth']], function () {
