@@ -1,15 +1,13 @@
-.no-padding-left-right {
-  padding-left: 0;
-  padding-right: 0; }
-
-.modal-body {
+.cham-cong .npd {
+  padding: 5px 0; }
+.cham-cong .modal-body {
   padding-left: 15px;
   padding-right: 15px; }
-
-.group {
+.cham-cong .group {
   padding: 10px 0 10px 0; }
-
-.pd {
+.cham-cong .pd {
   padding: 5px 0; }
+.cham-cong div {
+  padding-top: 10px; }
 
 /*# sourceMappingURL=app.css.map */

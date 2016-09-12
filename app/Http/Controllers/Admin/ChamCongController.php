@@ -24,7 +24,12 @@ class ChamCongController extends Controller
         $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
         $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
 
-//        return response()->json($response);
         return $response;
+    }
+
+    public function add(Request $rq)
+    {
+        $data = $rq->all();
+        return $data;
     }
 }

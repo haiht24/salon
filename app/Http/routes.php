@@ -10,6 +10,7 @@ Route::group(['middleware' => ['web']], function () {
 
     // API
     Route::get('/api/cham-cong/get-data', 'Admin\ChamCongController@getData');
+    Route::post('/api/cham-cong/add', 'Admin\ChamCongController@add');
 });
 
 Route::group(['middleware' => ['web','auth']], function () {
