@@ -1,13 +1,22 @@
-.cham-cong .npd {
+.doanh-thu .npd {
   padding: 5px 0; }
-.cham-cong .modal-body {
-  padding-left: 15px;
-  padding-right: 15px; }
-.cham-cong .group {
+.doanh-thu .npd-top {
+  padding-top: 0; }
+.doanh-thu .modal-header.close {
+  margin: 0;
+  font-size: 18px; }
+.doanh-thu .modal-body {
+  padding: 0; }
+.doanh-thu .group {
   padding: 10px 0 10px 0; }
-.cham-cong .pd {
+.doanh-thu .pd {
   padding: 5px 0; }
-.cham-cong div {
+.doanh-thu div {
   padding-top: 10px; }
+.doanh-thu .btn-confirm {
+  padding-bottom: 10px; }
+@media (max-width: 479px) {
+  .doanh-thu .btn-confirm {
+    text-align: center; } }
 
 /*# sourceMappingURL=app.css.map */

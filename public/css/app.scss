@@ -1,26 +1,33 @@
-.cham-cong {
+.doanh-thu {
     .npd {
         padding: 5px 0;
     }
-
-    .modal-body {
-        padding-left: 15px;
-        padding-right: 15px;
+    .npd-top {
+        padding-top: 0;
     }
-
+    .modal-header.close {
+        margin: 0;
+        font-size: 18px;
+    }
+    .modal-body {
+        padding: 0;
+    }
     .group {
         padding: 10px 0 10px 0;
     }
-
     .pd {
         padding: 5px 0;
     }
-
     div {
         padding-top: 10px;
     }
+    .btn-confirm {
+        padding-bottom: 10px;
+    }
 
     @media(max-width: 479px) {
-
+        .btn-confirm {
+            text-align: center;
+        }
     }
 }

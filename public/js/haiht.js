@@ -1,5 +1,5 @@
 var chamCongJs = function () {
-    $('#modalAdd').modal('show');
+    // $('#modalAdd').modal('show');
     Vue.http.headers.common['X-CSRF-TOKEN'] = $('meta[id="_token"]').attr('value');
     new Vue({
         el: '#modalAdd',
@@ -10,7 +10,7 @@ var chamCongJs = function () {
         },
         ready: function () {
             // init data
-            this.$http.get('api/cham-cong/get-data').then((resp) => {
+            this.$http.get('api/doanh-thu/get-data').then((resp) => {
                 this.$set('response',resp.json());
             }, (resp) => {
                 console.log(resp);
@@ -21,8 +21,9 @@ var chamCongJs = function () {
             confirm: function (donhang) {
                 // console.log(donhang);
                 // console.log(this.donhang);
-                this.$http.post('api/cham-cong/add', donhang).then((resp) => {
-
+                this.$http.post('api/doanh-thu/add', donhang).then((resp) => {
+                    if(resp.body === 'true')
+                        location.reload();
                 }, (resp) => {
                     console.log(resp);
                 });
