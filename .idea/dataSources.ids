@@ -314,28 +314,31 @@ mobile</columns>
       <column id="90" parent="11" name="author">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="91" parent="11" name="created_at">
+      <column id="91" parent="11" name="cuahang_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="92" parent="11" name="created_at">
         <data-type>timestamp</data-type>
       </column>
-      <column id="92" parent="11" name="updated_at">
+      <column id="93" parent="11" name="updated_at">
         <data-type>timestamp</data-type>
       </column>
-      <key id="93" parent="11" name="PRIMARY">
+      <key id="94" parent="11" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="94" parent="12" name="id">
+      <column id="95" parent="12" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="95" parent="12" name="number">
+      <column id="96" parent="12" name="number">
         <data-type>varchar(255)</data-type>
       </column>
-      <column id="96" parent="12" name="user_id">
+      <column id="97" parent="12" name="user_id">
         <data-type>int(11)</data-type>
       </column>
-      <key id="97" parent="12" name="PRIMARY">
+      <key id="98" parent="12" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>

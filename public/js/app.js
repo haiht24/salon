@@ -5,4 +5,7 @@ $(document).ready(function() {
     if(typeof include_chamCongJs !== 'undefined' && include_chamCongJs === true){
         chamCongJs();
     }
+    if(typeof include_cuaHangJs !== 'undefined' && include_cuaHangJs === true){
+        cuaHangJs();
+    }
 });

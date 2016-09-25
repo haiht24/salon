@@ -31,3 +31,17 @@ var chamCongJs = function () {
         }
     })
 }
+
+var cuaHangJs = function () {
+    var $form = $('#frmAddCuaHang');
+    $form.on('submit', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'post',
+            url: $form.attr('action'),
+            data: $form.serialize()
+        }).done(function (data) {
+            console.log(data);
+        });
+    });
+};

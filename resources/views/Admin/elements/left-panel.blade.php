@@ -25,7 +25,8 @@
             <li class="{{ (isset($active) && $active === 'doanh-thu') ? 'active':'' }}">
                 <a href="{{ url('doanh-thu') }}"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Doanh thu</span></a>
             </li>
-            <li class="open">
+            {{--<li class="open">--}}
+            <li>
                 <a href="#">
                     <i class="fa fa-lg fa-fw fa-home"></i>
                     <span class="menu-item-parent">Quản lý</span>

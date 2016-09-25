@@ -22,6 +22,7 @@ class CreateTableDonhang extends Migration
             $table->float('tien_sanpham')->nullable();
             $table->integer('khachhang_id')->nullable();
             $table->string('author')->nullable();
+            $table->integer('cuahang_id')->nullable();
             $table->timestamps();
 
         });

@@ -8,6 +8,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/admin', 'Admin\IndexController@index');
     Route::get('/doanh-thu', 'Admin\ChamCongController@index');
     Route::get('/cua-hang', 'Admin\CuaHangController@index');
+    Route::post('/cua-hang/add', 'Admin\CuaHangController@add');
 
     // API
     Route::get('/api/doanh-thu/get-data', 'Admin\ChamCongController@getData');
