@@ -70,9 +70,9 @@
 				</span>
 
                 <!-- breadcrumb -->
-                <ol class="breadcrumb">
-                    <li>Home</li><li>Dashboard</li>
-                </ol>
+                {{--<ol class="breadcrumb">--}}
+                    {{--<li>Home</li><li>Dashboard</li>--}}
+                {{--</ol>--}}
                 <!-- end breadcrumb -->
 
                 <!-- You can also add more buttons to the

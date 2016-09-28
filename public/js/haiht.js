@@ -42,6 +42,26 @@ var cuaHangJs = function () {
             data: $form.serialize()
         }).done(function (data) {
             console.log(data);
+            if(data === 'true'){
+                location.reload();
+            }
+        });
+    });
+};
+
+var nhanVienJs = function () {
+    var $form = $('#frmAddNhanVien');
+    $form.on('submit', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'post',
+            url: $form.attr('action'),
+            data: $form.serialize()
+        }).done(function (data) {
+            console.log(data);
+            if(data === 'true'){
+                location.reload();
+            }
         });
     });
 };

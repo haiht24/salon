@@ -19,6 +19,7 @@ class CreateTableNhanVien extends Migration
             $table->dateTime('birthday')->nullable();
             $table->string('mobile')->nullable();
             $table->string('address')->nullable();
+            $table->integer('cuahang_id');
             $table->timestamps();
 
             $table->unique(['id','mobile']);

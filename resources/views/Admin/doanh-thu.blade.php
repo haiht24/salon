@@ -127,7 +127,7 @@
                                 <div class="col-xs-6 ">
                                     <select class="form-control input-lg" v-model="donhang.sanpham">
                                         <option value="" selected>Sản phẩm</option>
-                                        <option v-for="sp in response.sanpham" value="@{{ sp.price }}">@{{ sp.name }}</option>
+                                        <option v-for="sp in response.sanpham" value="@{{ sp.id }}">@{{ sp.name }}</option>
                                     </select>
                                 </div>
                                 <div class="col-xs-6 ">

@@ -8,4 +8,7 @@ $(document).ready(function() {
     if(typeof include_cuaHangJs !== 'undefined' && include_cuaHangJs === true){
         cuaHangJs();
     }
+    if(typeof include_nhanVienJs !== 'undefined' && include_nhanVienJs === true){
+        nhanVienJs();
+    }
 });
