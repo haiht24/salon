@@ -1,5 +1,5 @@
 #vendor/
-node_modules/
+#node_modules/
 
 # Laravel 4 specific
 bootstrap/compiled.php
