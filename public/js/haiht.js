@@ -65,3 +65,37 @@ var nhanVienJs = function () {
         });
     });
 };
+
+var dichvuJs = function () {
+    var $form = $('#frmAddDichVu');
+    $form.on('submit', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'post',
+            url: $form.attr('action'),
+            data: $form.serialize()
+        }).done(function (data) {
+            console.log(data);
+            if(data === 'true'){
+                location.reload();
+            }
+        });
+    });
+};
+
+var sanphamJs = function () {
+    var $form = $('#frmAddSanPham');
+    $form.on('submit', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'post',
+            url: $form.attr('action'),
+            data: $form.serialize()
+        }).done(function (data) {
+            console.log(data);
+            if(data === 'true'){
+                location.reload();
+            }
+        });
+    });
+};

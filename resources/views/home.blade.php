@@ -75,8 +75,8 @@
                                             <div class="col-xs-6 ">
                                                 <select class="form-control input-lg" >
                                                     <option value="" selected name="dichvu">Dịch vụ</option>
-                                                    @if($donhang)
-                                                        @foreach($donhang as $dh)
+                                                    @if($dichvu)
+                                                        @foreach($dichvu as $dv)
                                                             <option value="{{ $dv['id'] }}">{{ $dv['name'] }}</option>
                                                         @endforeach
                                                     @endif

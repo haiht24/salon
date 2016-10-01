@@ -11,4 +11,10 @@ $(document).ready(function() {
     if(typeof include_nhanVienJs !== 'undefined' && include_nhanVienJs === true){
         nhanVienJs();
     }
+    if(typeof include_dichVuJs !== 'undefined' && include_dichVuJs === true){
+        dichvuJs();
+    }
+    if(typeof include_sanPhamJs !== 'undefined' && include_sanPhamJs === true){
+        sanphamJs();
+    }
 });

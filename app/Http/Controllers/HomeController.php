@@ -36,9 +36,10 @@ class HomeController extends Controller
             ->orderBy('don_hang.id', 'DESC')
             ->get();
         $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
-        $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
-        $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
+        $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get(['id', 'name']);
+        $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get(['id', 'name']);
         $response['cuahang'] = CuaHang::get(['id', 'name']);
+
         return view('home')->with($response);
     }
 

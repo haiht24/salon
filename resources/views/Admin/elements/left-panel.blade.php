@@ -39,11 +39,11 @@
                     <li class="{{ (isset($active) && $active === 'nhan-vien') ? 'active':'' }}">
                         <a href="{{ url('nhan-vien') }}">Nhân viên</a>
                     </li>
-                    <li>
-                        <a href="#">Dịch vụ</a>
+                    <li class="{{ (isset($active) && $active === 'dich-vu') ? 'active':'' }}">
+                        <a href="{{ url('dich-vu') }}">Dịch vụ</a>
                     </li>
-                    <li>
-                        <a href="#">Sản phẩm</a>
+                    <li class="{{ (isset($active) && $active === 'san-pham') ? 'active':'' }}">
+                        <a href="{{ url('san-pham') }}">Sản phẩm</a>
                     </li>
                 </ul>
             </li>
