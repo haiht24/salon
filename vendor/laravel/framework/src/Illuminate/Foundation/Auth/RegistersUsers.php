@@ -4,6 +4,7 @@ namespace Illuminate\Foundation\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\CuaHang;
 
 trait RegistersUsers
 {
@@ -29,8 +30,9 @@ trait RegistersUsers
         if (property_exists($this, 'registerView')) {
             return view($this->registerView);
         }
+        $response['cuahang'] = CuaHang::get();
 
-        return view('auth.register');
+        return view('auth.register')->with($response);
     }
 
     /**

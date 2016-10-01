@@ -25,17 +25,20 @@ class ChamCongController extends Controller
             ->select('don_hang.*', 'nv.full_name', 'dv.name as dichvu_name', 'sp.name as sanpham_name')
             ->orderBy('don_hang.id', 'DESC')
             ->get();
-        return view('Admin/doanh-thu')->with($response);
-    }
-
-    public function getData()
-    {
-        $response = [];
         $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
         $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
         $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
-        return $response;
+        return view('Admin/doanh-thu')->with($response);
     }
+
+//    public function getData()
+//    {
+//        $response = [];
+//        $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
+//        $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
+//        $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
+//        return $response;
+//    }
 
     public function add(Request $rq)
     {

@@ -7,6 +7,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/admin', 'Admin\IndexController@index');
     Route::get('/doanh-thu', 'Admin\ChamCongController@index');
+    Route::post('/doanh-thu/add', 'Admin\ChamCongController@add');
     Route::get('/cua-hang', 'Admin\CuaHangController@index');
     Route::post('/cua-hang/add', 'Admin\CuaHangController@add');
     Route::get('/nhan-vien', 'Admin\NhanVienController@index');

@@ -102,45 +102,64 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <span class="h3">@{{ title }}</span>
+                                <span class="h3">Thêm mới</span>
                                 <i class="close fa fa-times" data-dismiss="modal"></i>
                             </div>
-
+                            <form id="frmAddDoanhThu" action="{{ url('doanh-thu/add') }}" method="post">
                             <div class="modal-body clearfix">
                                 <div class="col-xs-12 ">
-                                    <select class="form-control input-lg" v-model="donhang.nhanvien">
+                                    <select class="form-control input-lg" name="cuahang">
+                                        @if($cuahang)
+                                            @foreach($cuahang as $ch)
+                                                <option value="{{ $ch['id'] }}">{{ $ch['name'] }}</option>
+                                            @endforeach
+                                        @endif
+                                    </select>
+                                </div>
+                                <div class="col-xs-12 ">
+                                    <select class="form-control input-lg" name="nhanvien">
                                         <option value="" selected>Nhân viên</option>
-                                        <option  v-for="nv in response.nhanvien" value="@{{ nv.id }}">@{{ nv.full_name }}</option>
+                                        @if($nhanvien)
+                                            @foreach($nhanvien as $nv)
+                                                <option value="{{ $nv['id'] }}">{{ $nv['full_name'] }}</option>
+                                            @endforeach
+                                        @endif
                                     </select>
                                 </div>
 
                                 <div class="col-xs-6 ">
-                                    <select class="form-control input-lg" v-model="donhang.dichvu">
-                                        <option value="" selected>Dịch vụ</option>
-                                        <option v-for="dv in response.dichvu" value="@{{ dv.id }}">@{{ dv.name }}</option>
+                                    <select class="form-control input-lg" >
+                                        <option value="" selected name="dichvu">Dịch vụ</option>
+                                        @if($donhang)
+                                            @foreach($donhang as $dh)
+                                                <option value="{{ $dv['id'] }}">{{ $dv['name'] }}</option>
+                                            @endforeach
+                                        @endif
                                     </select>
                                 </div>
                                 <div class="col-xs-6">
-                                    <input v-model="donhang.tiendichvu" type="text" class="form-control input-lg" placeholder="Thành tiền" >
+                                    <input name="tiendichvu" type="text" class="form-control input-lg" placeholder="Thành tiền" >
                                 </div>
 
                                 <div class="col-xs-6 ">
-                                    <select class="form-control input-lg" v-model="donhang.sanpham">
+                                    <select class="form-control input-lg" >
                                         <option value="" selected>Sản phẩm</option>
-                                        <option v-for="sp in response.sanpham" value="@{{ sp.id }}">@{{ sp.name }}</option>
+                                        @if($sanpham)
+                                            @foreach($sanpham as $sp)
+                                            <option value="{{ $sp['id'] }}">{{ $sp['name'] }}</option>
+                                            @endforeach
+                                        @endif
                                     </select>
                                 </div>
                                 <div class="col-xs-6 ">
-                                    <input v-model="donhang.tiensanpham" type="text" class="form-control input-lg" placeholder="Thành tiền" >
+                                    <input name="tiensanpham" type="text" class="form-control input-lg" placeholder="Thành tiền" >
                                 </div>
 
                                 <div class="btn-confirm col-xs-12">
-                                    <button class="btn btn-primary" v-on:click="confirm(donhang)">Xác nhận</button>
+                                    <button class="btn btn-primary"">Xác nhận</button>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-
-                            </div>
+                            </form>
                         </div>
                     </div>
 				</div>
