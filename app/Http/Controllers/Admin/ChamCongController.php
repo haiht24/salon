@@ -12,9 +12,19 @@ use App\SanPham;
 use App\DonHang;
 use App\User;
 use DB;
+use Auth;
 
 class ChamCongController extends Controller
 {
+    function __construct()
+    {
+        if (Auth::check()) {
+            $this->user = Auth::user()->getAttributes();
+        }else{
+            $this->user = [];
+        }
+    }
+
     public function index()
     {
         $response['active'] = 'doanh-thu';
@@ -31,15 +41,6 @@ class ChamCongController extends Controller
         return view('Admin/doanh-thu')->with($response);
     }
 
-//    public function getData()
-//    {
-//        $response = [];
-//        $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
-//        $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
-//        $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
-//        return $response;
-//    }
-
     public function add(Request $rq)
     {
         $data = $rq->all();
@@ -49,6 +50,7 @@ class ChamCongController extends Controller
         $dh->sanpham_id = $data['sanpham'];
         $dh->tien_dichvu = isset($data['tiendichvu']) ? $data['tiendichvu'] : 0;
         $dh->tien_sanpham = isset($data['tiensanpham']) ? $data['tiensanpham'] : 0;
+        $dh->author = $this->user ? $this->user['id'] : 0;
 
         $result = $dh->save();
         return json_encode($result);

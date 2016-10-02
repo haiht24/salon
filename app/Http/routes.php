@@ -9,6 +9,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/doanh-thu', 'Admin\ChamCongController@index');
     Route::post('/doanh-thu/add', 'Admin\ChamCongController@add');
+    Route::post('/doanh-thu/add-home', 'Admin\ChamCongController@addHome');
 
     Route::get('/cua-hang', 'Admin\CuaHangController@index');
     Route::post('/cua-hang/add', 'Admin\CuaHangController@add');

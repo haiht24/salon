@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 var home = function () {
-    var $form = $('#modalAdd');
+    var $form = $('#frmAddDoanhThu');
     $form.on('submit', function (e) {
         e.preventDefault();
         $.ajax({

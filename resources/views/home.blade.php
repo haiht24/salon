@@ -35,7 +35,7 @@
                                             <td>{{ $d->tien_sanpham > 0 ? $d->tien_sanpham : '' }}</td>
                                             <td>{{ $d->full_name }}</td>
                                             <td>{{ $d->created_at }}</td>
-                                            <td></td>
+                                            <td>{{ $d->author }}</td>
                                         </tr>
                                     @endforeach
                                 @endif
@@ -51,6 +51,7 @@
                                         <i class="close fa fa-times" data-dismiss="modal"></i>
                                     </div>
                                     <form id="frmAddDoanhThu" action="{{ url('doanh-thu/add') }}" method="post">
+                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <div class="modal-body clearfix">
                                             <div class="col-xs-12 ">
                                                 <select class="form-control input-lg" name="cuahang">
@@ -73,8 +74,8 @@
                                             </div>
 
                                             <div class="col-xs-6 ">
-                                                <select class="form-control input-lg" >
-                                                    <option value="" selected name="dichvu">Dịch vụ</option>
+                                                <select name="dichvu" class="form-control input-lg" >
+                                                    <option value="" selected>Dịch vụ</option>
                                                     @if($dichvu)
                                                         @foreach($dichvu as $dv)
                                                             <option value="{{ $dv['id'] }}">{{ $dv['name'] }}</option>
@@ -87,7 +88,7 @@
                                             </div>
 
                                             <div class="col-xs-6 ">
-                                                <select class="form-control input-lg" >
+                                                <select name="sanpham" class="form-control input-lg" >
                                                     <option value="" selected>Sản phẩm</option>
                                                     @if($sanpham)
                                                         @foreach($sanpham as $sp)
