@@ -11,6 +11,7 @@ use App\DichVu;
 use App\SanPham;
 use App\DonHang;
 use App\User;
+use App\CuaHang;
 use DB;
 use Auth;
 
@@ -38,6 +39,8 @@ class ChamCongController extends Controller
         $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
         $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get();
         $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get();
+        $response['cuahang'] = CuaHang::get(['id', 'name']);
+        
         return view('Admin/doanh-thu')->with($response);
     }
 

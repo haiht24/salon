@@ -12,6 +12,7 @@ class CuaHangController extends Controller
 {
     public function index()
     {
+        $this->isAdmin();
         $response['active'] = 'cua-hang';
         $response['cuahang'] = CuaHang::get();
         return view('Admin.cua-hang')->with($response);

@@ -12,6 +12,7 @@ class SanPhamController extends Controller
 {
     public function index()
     {
+        $this->isAdmin();
         $response['active'] = 'san-pham';
         $response['sanpham'] = SanPham::get();
         return view('Admin.san-pham')->with($response);

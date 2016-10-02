@@ -1,6 +1,10 @@
 <?php
 
 Route::group(['middleware' => ['web']], function () {
+
+});
+
+Route::group(['middleware' => ['web','auth']], function () {
     Route::get('/', function () {
         return view('welcome');
     });
@@ -24,12 +28,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/san-pham/add', 'Admin\SanPhamController@add');
 
     // API
-    Route::get('/api/doanh-thu/get-data', 'Admin\ChamCongController@getData');
-    Route::post('/api/doanh-thu/add', 'Admin\ChamCongController@add');
-});
-
-Route::group(['middleware' => ['web','auth']], function () {
-
+//    Route::get('/api/doanh-thu/get-data', 'Admin\ChamCongController@getData');
+//    Route::post('/api/doanh-thu/add', 'Admin\ChamCongController@add');
 });
 
 Route::auth();

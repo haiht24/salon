@@ -7,7 +7,7 @@
 					<a href="javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
 						<img src="img/avatars/sunny.png" alt="me" class="online" />
 						<span>
-							john.doe
+							{{ Auth::check() ? Auth::user()['name'] : '' }}
 						</span>
 						<i class="fa fa-angle-down"></i>
 					</a>
@@ -20,11 +20,11 @@
     <nav>
         <ul>
             <li class="{{ (isset($active) && $active === 'dashboard') ? 'active':'' }}">
-                <a href="index.html" title="Dashboard"><i class="fa fa-lg fa-fw  fa-tachometer"></i> <span class="menu-item-parent">Dashboard</span></a>
+                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw  fa-tachometer"></i> <span class="menu-item-parent">Dashboard</span></a>
             </li>
-            <li class="{{ (isset($active) && $active === 'doanh-thu') ? 'active':'' }}">
-                <a href="{{ url('doanh-thu') }}"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Doanh thu</span></a>
-            </li>
+            {{--<li class="{{ (isset($active) && $active === 'doanh-thu') ? 'active':'' }}">--}}
+                {{--<a href="{{ url('doanh-thu') }}"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Doanh thu</span></a>--}}
+            {{--</li>--}}
             {{--<li class="open">--}}
             <li>
                 <a href="#">

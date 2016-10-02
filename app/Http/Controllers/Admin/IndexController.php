@@ -11,6 +11,7 @@ class IndexController extends Controller
 {
     public function index(Request $rq)
     {
+        $this->isAdmin();
         $data = $rq->all();
         return view('Admin/index');
     }

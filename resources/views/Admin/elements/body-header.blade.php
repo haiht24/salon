@@ -2,7 +2,11 @@
     <div id="logo-group">
 
         <!-- PLACE YOUR LOGO HERE -->
-        <span id="logo"> <img src="img/logo.png" alt="SmartAdmin"> </span>
+        <span id="logo">
+            <a href="{{ url('home') }}">
+                <img src="img/logo.png" alt="SmartAdmin">
+            </a>
+        </span>
         <!-- END LOGO PLACEHOLDER -->
 
         <!-- Note: The activity badge color changes when clicked and resets the number to 0

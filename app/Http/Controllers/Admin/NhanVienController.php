@@ -13,6 +13,7 @@ class NhanVienController extends Controller
 {
     public function index()
     {
+        $this->isAdmin();
         $response['active'] = 'nhan-vien';
         $response['nhanvien'] = NhanVien::get();
         $response['cuahang'] = CuaHang::get(['id','name']);
