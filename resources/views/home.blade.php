@@ -34,7 +34,7 @@
                                             <td>{{ $d->sanpham_name }}</td>
                                             <td>{{ $d->tien_sanpham > 0 ? $d->tien_sanpham : '' }}</td>
                                             <td>{{ $d->full_name }}</td>
-                                            <td>{{ $d->created_at }}</td>
+                                            <td>{{ Helper::dateFormat($d->created_at, true) }}</td>
                                             <td>{{ $d->author }}</td>
                                         </tr>
                                     @endforeach
