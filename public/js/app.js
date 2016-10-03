@@ -17,4 +17,7 @@ $(document).ready(function() {
     if(typeof include_sanPhamJs !== 'undefined' && include_sanPhamJs === true){
         sanphamJs();
     }
+    if(typeof include_dashboardJs !== 'undefined' && include_dashboardJs === true){
+        dashboardJs();
+    }
 });

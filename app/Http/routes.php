@@ -9,6 +9,7 @@ Route::group(['middleware' => ['web','auth']], function () {
         return view('welcome');
     });
 
+    Route::get('/dashboard', 'Admin\DashboardController@index');
     Route::get('/admin', 'Admin\IndexController@index');
 
     Route::get('/doanh-thu', 'Admin\ChamCongController@index');

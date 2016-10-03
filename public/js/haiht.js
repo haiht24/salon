@@ -99,3 +99,16 @@ var sanphamJs = function () {
         });
     });
 };
+
+var dashboardJs = function () {
+    var g = new Dygraph(
+        // containing div
+        document.getElementById("graphdiv"),
+        // CSV or path to a CSV file.
+        "Date,Temperature,F\n" +
+        "2008-05-07,75,70\n" +
+        "2008-05-08,70,30\n" +
+        "2008-05-09,80,50\n"
+
+    );
+}

@@ -20,7 +20,7 @@
     <nav>
         <ul>
             <li class="{{ (isset($active) && $active === 'dashboard') ? 'active':'' }}">
-                <a href="#" title="Dashboard"><i class="fa fa-lg fa-fw  fa-tachometer"></i> <span class="menu-item-parent">Dashboard</span></a>
+                <a href="{{ url('dashboard') }}" title="Dashboard"><i class="fa fa-lg fa-fw  fa-tachometer"></i> <span class="menu-item-parent">Dashboard</span></a>
             </li>
             {{--<li class="{{ (isset($active) && $active === 'doanh-thu') ? 'active':'' }}">--}}
                 {{--<a href="{{ url('doanh-thu') }}"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Doanh thu</span></a>--}}

@@ -34,7 +34,7 @@
 <script src="js/smartwidgets/jarvis.widget.min.js"></script>
 
 <!-- EASY PIE CHARTS -->
-<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+{{--<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>--}}
 
 <!-- SPARKLINES -->
 <script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
@@ -80,10 +80,10 @@
 <!-- PAGE RELATED PLUGIN(S) -->
 
 <!-- Flot Chart Plugin: Flot Engine, Flot Resizer, Flot Tooltip -->
-<script src="js/plugin/flot/jquery.flot.cust.min.js"></script>
-<script src="js/plugin/flot/jquery.flot.resize.min.js"></script>
-<script src="js/plugin/flot/jquery.flot.time.min.js"></script>
-<script src="js/plugin/flot/jquery.flot.tooltip.min.js"></script>
+{{--<script src="js/plugin/flot/jquery.flot.cust.min.js"></script>--}}
+{{--<script src="js/plugin/flot/jquery.flot.resize.min.js"></script>--}}
+{{--<script src="js/plugin/flot/jquery.flot.time.min.js"></script>--}}
+{{--<script src="js/plugin/flot/jquery.flot.tooltip.min.js"></script>--}}
 
 <!-- Vector Maps Plugin: Vectormap engine, Vectormap language -->
 {{--<script src="js/plugin/vectormap/jquery-jvectormap-1.2.2.min.js"></script>--}}
@@ -101,6 +101,6 @@
 <!-- CUSTOM JS -->
 {{--<script src="{{ asset('node_modules/vue/dist/vue.js') }}"></script>--}}
 {{--<script src="{{ asset('node_modules/vue-resource/dist/vue-resource.js') }}"></script>--}}
-
+@yield('jsLibs')
 <script src="{{ asset('js/index.js') }}" type="text/javascript"></script>
 <script src="{{ asset('js/haiht.js') }}" type="text/javascript"></script>
