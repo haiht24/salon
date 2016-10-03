@@ -12,7 +12,7 @@ Route::group(['middleware' => ['web','auth']], function () {
     Route::get('/dashboard', 'Admin\DashboardController@index');
     Route::get('/admin', 'Admin\IndexController@index');
 
-    Route::get('/doanh-thu', 'Admin\ChamCongController@index');
+//    Route::get('/doanh-thu', 'Admin\ChamCongController@index');
     Route::post('/doanh-thu/add', 'Admin\ChamCongController@add');
     Route::post('/doanh-thu/add-home', 'Admin\ChamCongController@addHome');
 
