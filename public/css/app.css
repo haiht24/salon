@@ -17,6 +17,8 @@
   padding-bottom: 10px; }
 @media (max-width: 479px) {
   .doanh-thu .btn-confirm {
-    text-align: center; } }
+    text-align: center; }
+  .doanh-thu .modal-dialog {
+    padding: 0; } }
 
 /*# sourceMappingURL=app.css.map */
