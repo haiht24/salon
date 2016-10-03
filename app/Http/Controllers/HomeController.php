@@ -12,6 +12,7 @@ use App\SanPham;
 use App\DonHang;
 use App\User;
 use DB;
+use Auth;
 
 class HomeController extends Controller
 {
@@ -20,7 +21,6 @@ class HomeController extends Controller
      *
      * @return void
      */
-    protected $user;
     public function __construct()
     {
         $this->middleware('auth');
@@ -37,10 +37,10 @@ class HomeController extends Controller
             ->select('don_hang.*', 'nv.full_name', 'dv.name as dichvu_name', 'sp.name as sanpham_name', 'u.name as author')
             ->orderBy('don_hang.id', 'DESC')
             ->get();
-        $response['nhanvien'] = NhanVien::get(['id', 'full_name']);
+        $response['nhanvien'] = NhanVien::where(['cuahang_id' => Auth::user()['cuahang_id']])->get(['id', 'full_name']);
         $response['dichvu'] = DichVu::orderBy('name', 'ASC')->get(['id', 'name']);
         $response['sanpham'] = SanPham::orderBy('name', 'ASC')->get(['id', 'name']);
-        $response['cuahang'] = CuaHang::get(['id', 'name']);
+//        $response['cuahang'] = CuaHang::get(['id', 'name']);
 
         return view('home')->with($response);
     }

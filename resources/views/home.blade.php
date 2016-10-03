@@ -9,28 +9,23 @@
 
                 <div class="panel-body">
                     <div class="doanh-thu">
-                        {{--<button data-toggle="collapse" data-target="#demo">Collapsible</button>--}}
-
-
-
                         <div class="form-group ">
-                            {{--<button class="btn btn-primary" data-toggle="modal" data-target="#modalAdd">Thêm mới</button>--}}
-                            <button class="btn btn-primary" data-toggle="collapse" data-target="#demo">Thêm mới</button>
+                            <button class="btn btn-warning" data-toggle="collapse" data-target="#frmAdd">Thêm mới</button>
                         </div>
 
-                        <div id="demo" class="collapse">
+                        <div id="frmAdd" class="collapse">
                             <form id="frmAddDoanhThu" action="{{ url('doanh-thu/add') }}" method="post">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="modal-body clearfix">
-                                    <div class="col-xs-12 ">
-                                        <select class="form-control input-lg" name="cuahang">
-                                            @if($cuahang)
-                                                @foreach($cuahang as $ch)
-                                                    <option value="{{ $ch['id'] }}">{{ $ch['name'] }}</option>
-                                                @endforeach
-                                            @endif
-                                        </select>
-                                    </div>
+                                    {{--<div class="col-xs-12 ">--}}
+                                        {{--<select class="form-control input-lg" name="cuahang">--}}
+                                            {{--@if($cuahang)--}}
+                                                {{--@foreach($cuahang as $ch)--}}
+                                                    {{--<option value="{{ $ch['id'] }}">{{ $ch['name'] }}</option>--}}
+                                                {{--@endforeach--}}
+                                            {{--@endif--}}
+                                        {{--</select>--}}
+                                    {{--</div>--}}
                                     <div class="col-xs-12 ">
                                         <select class="form-control input-lg" name="nhanvien">
                                             <option value="" selected>Nhân viên</option>
@@ -107,73 +102,7 @@
                                 </tbody>
                             </table>
                         </div>
-                        <!-- Modal -->
-                        <div id="modalAdd" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="h3">Thêm mới</span>
-                                        <i class="close fa fa-times" data-dismiss="modal"></i>
-                                    </div>
-                                    <form id="frmAddDoanhThu" action="{{ url('doanh-thu/add') }}" method="post">
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                        <div class="modal-body clearfix">
-                                            <div class="col-xs-12 ">
-                                                <select class="form-control input-lg" name="cuahang">
-                                                    @if($cuahang)
-                                                        @foreach($cuahang as $ch)
-                                                            <option value="{{ $ch['id'] }}">{{ $ch['name'] }}</option>
-                                                        @endforeach
-                                                    @endif
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-12 ">
-                                                <select class="form-control input-lg" name="nhanvien">
-                                                    <option value="" selected>Nhân viên</option>
-                                                    @if($nhanvien)
-                                                        @foreach($nhanvien as $nv)
-                                                            <option value="{{ $nv['id'] }}">{{ $nv['full_name'] }}</option>
-                                                        @endforeach
-                                                    @endif
-                                                </select>
-                                            </div>
 
-                                            <div class="col-xs-6 ">
-                                                <select name="dichvu" class="form-control input-lg" >
-                                                    <option value="" selected>Dịch vụ</option>
-                                                    @if($dichvu)
-                                                        @foreach($dichvu as $dv)
-                                                            <option value="{{ $dv['id'] }}">{{ $dv['name'] }}</option>
-                                                        @endforeach
-                                                    @endif
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <input name="tiendichvu" type="text" class="form-control input-lg" placeholder="Thành tiền" >
-                                            </div>
-
-                                            <div class="col-xs-6 ">
-                                                <select name="sanpham" class="form-control input-lg" >
-                                                    <option value="" selected>Sản phẩm</option>
-                                                    @if($sanpham)
-                                                        @foreach($sanpham as $sp)
-                                                            <option value="{{ $sp['id'] }}">{{ $sp['name'] }}</option>
-                                                        @endforeach
-                                                    @endif
-                                                </select>
-                                            </div>
-                                            <div class="col-xs-6 ">
-                                                <input name="tiensanpham" type="text" class="form-control input-lg" placeholder="Thành tiền" >
-                                            </div>
-
-                                            <div class="btn-confirm col-xs-12">
-                                                <button class="btn btn-primary">Xác nhận</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

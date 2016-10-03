@@ -12,7 +12,9 @@
 .doanh-thu .pd {
   padding: 5px 0; }
 .doanh-thu div {
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0; }
 .doanh-thu .btn-confirm {
   padding-bottom: 10px; }
 @media (max-width: 479px) {
